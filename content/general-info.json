@@ -1,0 +1,11 @@
+{
+  "city_name": "İstanbul",
+  "hero_title": "Yedi Tepeli Şehir: İstanbul'u Keşfedin",
+  "hero_description": "Asya ile Avrupa'nın birleştiği noktada, binlerce yıllık tarihi, büyüleyici boğaz manzaraları ve modern cazibe merkezleriyle İstanbul gezi rotanızı oluşturun.",
+  "transport_title": "İstanbul'da Şehir İçi Ulaşım",
+  "transport_description": "İstanbul'u gezerken en pratik yöntem İstanbulkart edinmektir. Metro, tramvay, vapur ve otobüs hatları birbiriyle entegredir. Tarihi Yarımada'yı gezmek için T1 Kabataş-Bağcılar Tramvay Hattı'nı kullanabilirsiniz.",
+  "transport_tips": [
+    "En hızlı Boğaz geçişi: Marmaray veya Şehir Hatları Vapurları",
+    "Müze Kart: Tarihi yerlerin çoğunda sıra beklemeden hızlı geçiş sağlar."
+  ]
+}
