@@ -1,0 +1,1 @@
+# gezi-rotasi-istanbul
