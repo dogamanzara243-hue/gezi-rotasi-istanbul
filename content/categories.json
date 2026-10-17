@@ -1,0 +1,42 @@
+[
+  {
+    "id": "tarihi",
+    "title": "Tarihi & İkonik Mekanlar",
+    "category_badge": "Tarih & Kültür",
+    "badge_icon": "fa-monument",
+    "image": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=800&q=80",
+    "description": "Ayasofya, Topkapı Sarayı, Yerebatan Sarnıcı ve Camiler... Yüzyıllardır ayakta duran İmparatorluk mirası mekanları keşfedin.",
+    "target_url": "https://tarihi.istanbulgezirotas.com",
+    "button_text": "Tarihi Yerleri Gör"
+  },
+  {
+    "id": "modern",
+    "title": "Modern & Popüler Mekanlar",
+    "category_badge": "Şehir Hayatı",
+    "badge_icon": "fa-city",
+    "image": "https://images.unsplash.com/photo-1527838832700-54595d644d9b?auto=format&fit=crop&w=800&q=80",
+    "description": "Galataport, İstanbul Modern, Maslak-Levent hattı, konsept alışveriş merkezleri ve şehrin modern yüzünü temsil eden noktalar.",
+    "target_url": "https://modern.istanbulgezirotas.com",
+    "button_text": "Modern Yerleri Gör"
+  },
+  {
+    "id": "sofistike",
+    "title": "Sofistike & Sanat Dolu Mekanlar",
+    "category_badge": "Bohem & Sanat",
+    "badge_icon": "fa-mug-hot",
+    "image": "https://images.unsplash.com/photo-1513581166391-887a96ddeafd?auto=format&fit=crop&w=800&q=80",
+    "description": "Karaköy, Balat, Moda, Cihangir sokakları; 3. nesil kahveciler, antikacılar, bağımsız sanat galerileri ve gizli bahçeler.",
+    "target_url": "https://sofistike.istanbulgezirotas.com",
+    "button_text": "Sofistike Yerleri Gör"
+  },
+  {
+    "id": "doga",
+    "title": "Boğaz, Parklar & Adalar",
+    "category_badge": "Doğa & Sahil",
+    "badge_icon": "fa-tree",
+    "image": "https://images.unsplash.com/photo-1572587355938-164e29202a0a?auto=format&fit=crop&w=800&q=80",
+    "description": "Belgrad Ormanı, Emirgan Korusu, Büyükada, Bebek sahil yürüyüş yolu ve şehirden kaçış noktaları.",
+    "target_url": "https://doga.istanbulgezirotas.com",
+    "button_text": "Doğal Alanları Gör"
+  }
+]
