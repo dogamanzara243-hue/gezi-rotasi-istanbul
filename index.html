@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İstanbul Gezi Rehberi - Gezi Rotası</title>
+  
+  <!-- Font Awesome & Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Sizin Özel CSS Dosyanız -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="bg-[var(--bg-slate)] text-[var(--text-dark)] antialiased">
+
+  <!-- Üst Reklam Banner -->
+  <div class="container mx-auto px-4">
+    <div class="ad-banner-top">
+      <span>— Reklam Alanı (970x90 Banner) —</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="bg-white border-b border-[var(--border-light)] sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="https://gezirotas.com" class="flex items-center gap-2 font-bold text-xl text-[var(--primary)]">
+        <i class="fa-solid fa-compass text-2xl"></i>
+        <span>GEZİ ROTASI</span>
+      </a>
+      <nav class="text-sm font-medium text-[var(--text-muted)] hidden md:block">
+        <a href="https://gezirotas.com" class="hover:text-[var(--primary)]">Ana Sayfa</a>
+        <span class="mx-2">/</span>
+        <span class="text-[var(--text-dark)] font-semibold">İstanbul Rehberi</span>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Alanı -->
+  <section class="relative bg-slate-900 text-white py-16 md:py-24 overflow-hidden">
+    <div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=1600&q=80');"></div>
+    <div class="container mx-auto px-4 relative z-10 text-center max-w-3xl">
+      <span class="bg-[var(--primary)] text-xs uppercase tracking-widest font-bold px-3 py-1 rounded-full text-white inline-block mb-3">Şehir Rehberi</span>
+      <h1 id="hero-title" class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">Yükleniyor...</h1>
+      <p id="hero-desc" class="text-slate-300 text-base md:text-lg mb-6 leading-relaxed">...</p>
+    </div>
+  </section>
+
+  <!-- Ana İçerik -->
+  <main class="container mx-auto px-4 py-12">
+    <div class="mb-10 text-center max-w-2xl mx-auto">
+      <h2 class="text-2xl md:text-3xl font-bold mb-3">Nereyi Keşfetmek İstersiniz?</h2>
+      <p class="text-[var(--text-muted)]">Kategoriyi seçerek detaylı rehberlere ulaşın.</p>
+    </div>
+
+    <!-- JSON Verisinden Otomatik Beslenen Kartlar -->
+    <div id="categories-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- JavaScript buraya dinamik kartları aktarır -->
+    </div>
+
+    <!-- Makale İçi Reklam / Affiliate Kartı -->
+    <div class="mt-12">
+      <div class="ad-in-article flex-col p-6 text-center">
+        <i class="fa-solid fa-hotel text-3xl mb-2 text-[var(--primary)]"></i>
+        <span class="text-base font-bold text-[var(--text-dark)] mb-1">İstanbul'da Nerede Kalınır?</span>
+        <p class="text-xs text-[var(--text-muted)] max-w-md mb-4">Sizin için seçtiğimiz en iyi boğaz manzaralı ve merkezi otel fırsatlarını karşılaştırın.</p>
+        <a href="#" class="bg-[var(--text-dark)] text-white text-xs font-bold px-5 py-2.5 rounded-lg hover:bg-[var(--primary)] transition-colors">
+          Otel Fırsatlarını İncele <i class="fa-solid fa-external-link ml-1"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Ulaşım ve Genel Bilgi -->
+    <section class="mt-16 bg-white rounded-2xl border border-[var(--border-light)] p-6 md:p-8 shadow-sm">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <span class="text-[var(--primary)] font-bold text-xs uppercase tracking-wider">İpuçları & Rehber</span>
+          <h3 id="transport-title" class="text-2xl font-bold mt-1 mb-4">...</h3>
+          <p id="transport-desc" class="text-[var(--text-muted)] text-sm mb-4 leading-relaxed">...</p>
+          <ul id="transport-tips" class="space-y-2 text-sm text-[var(--text-dark)] font-medium mb-6"></ul>
+        </div>
+        <div class="aspect-map bg-slate-100 relative">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.7932761803!2d28.847372722108708!3d41.00549580922881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1cc7a98632128a1!2zxLBzdGFuYnVs!52e0!3m2!1str!2str!4v1700000000000!5m2!1str!2str" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t border-[var(--border-light)] mt-16 py-8 text-center text-xs text-[var(--text-muted)]">
+    <p>© 2026 Gezi Rotası - Modüler Rehber Sistemi</p>
+  </footer>
+
+  <!-- Dinamik Script -->
+  <script src="./assets/js/app.js"></script>
+</body>
+  </html>
