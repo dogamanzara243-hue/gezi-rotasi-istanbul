@@ -9,7 +9,7 @@ const SPOT_DATA = {
         "stats": [
             {
                 "label": "Ziyaretçi",
-                "value": "Yıllık 1M+"
+                "value": "Yıllık 15M+"
             },
             {
                 "label": "İdeal Süre",
@@ -21,7 +21,7 @@ const SPOT_DATA = {
             },
             {
                 "label": "Bölge",
-                "value": "Türkiye"
+                "value": "Marmara"
             }
         ]
     },
@@ -32,15 +32,15 @@ const SPOT_DATA = {
         "details": [
             {
                 "label": "Bölge",
-                "value": "Türkiye"
+                "value": "Marmara / İki Kıta"
             },
             {
                 "label": "Öne Çıkan",
-                "value": "Tarih, Kültür & Doğa"
+                "value": "Tarihi Yarımada & Boğaz"
             },
             {
                 "label": "İdeal Süre",
-                "value": "2-4 Gün"
+                "value": "3-5 Gün"
             }
         ]
     },
@@ -72,28 +72,28 @@ const SPOT_DATA = {
             {
                 "icon": "fa-solid fa-landmark",
                 "title": "Tarihi Yerler",
-                "description": "İstanbul'in köklü geçmişini yansıtan anıtlar, surlar ve müzeler.",
-                "linkText": "Tarihi Keşfet",
+                "description": "Ayasofya, Sultanahmet, Yerebatan Sarnıcı ve yüzyıllık imparatorluk anıtları.",
+                "linkText": "Tarihi Rehbere Git",
                 "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-tarihi-yerler/"
             },
             {
                 "icon": "fa-solid fa-city",
                 "title": "Modern Yerler",
-                "description": "Şehrin en hareketli caddeleri, modern meydanları ve kültür merkezleri.",
+                "description": "Taksim, Levent, Nişantaşı ve şehrin modern dinamik yüzü.",
                 "linkText": "Moderni İncele",
                 "url": "#must-see-items"
             },
             {
                 "icon": "fa-solid fa-gem",
                 "title": "Sofistike Yerler",
-                "description": "Nezih kafeler, sanat galerileri ve özel konaklama mekanları.",
+                "description": "Karaköy ve Moda'nın nezih kafeleri, sanat galerileri ve özel mekanları.",
                 "linkText": "Sofistike Noktalar",
                 "url": "#where-to-stay-title"
             },
             {
                 "icon": "fa-solid fa-tree",
                 "title": "Doğal Güzellikler",
-                "description": "Parklar, kanyonlar, sahiller ve nefes kesen manzara seyir noktaları.",
+                "description": "Emirgan Korusu, Belgrad Ormanı ve Boğaziçi kıyı hatları.",
                 "linkText": "Doğayı Gör",
                 "url": "#transport-title"
             }
@@ -126,19 +126,19 @@ const SPOT_DATA = {
     },
     "transportation": {
         "title": "Ulaşım Bilgileri",
-        "tip": "Şehir içi toplu taşıma kartlarını kullanarak tüm turistik mekanlara kolayca ulaşabilirsiniz.",
-        "mapUrl": "https://maps.google.com/?q=İstanbul+Turkey",
+        "tip": "İstanbulkart edinerek tüm metro, tramvay, marmaray ve vapur hatlarını kolayca kullanabilirsiniz.",
+        "mapUrl": "https://maps.google.com/?q=Istanbul+Turkey",
         "mapBgImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
         "methods": [
             {
                 "icon": "fa-solid fa-plane",
                 "title": "Havalimanı Ulaşımı",
-                "detail": "Havaş ve belediye otobüs seferleri ile şehir merkezine rahat erişim."
+                "detail": "Havaist otobüsleri ve metro hatları ile merkeze hızlı erişim."
             },
             {
-                "icon": "fa-solid fa-bus",
-                "title": "Şehirlerarası Otogar",
-                "detail": "Türkiye'nin tüm illerinden düzenli otobüs seferleri."
+                "icon": "fa-solid fa-ship",
+                "title": "Şehir Hatları Vapurları",
+                "detail": "Eminönü, Kadıköy ve Üsküdar arasında nostaljik deniz ulaşımı."
             }
         ]
     },
