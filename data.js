@@ -9,7 +9,7 @@ const SPOT_DATA = {
         "stats": [
             {
                 "label": "Ziyaretçi",
-                "value": "Yıllık 15M+"
+                "value": "Yıllık 1M+"
             },
             {
                 "label": "İdeal Süre",
@@ -21,47 +21,47 @@ const SPOT_DATA = {
             },
             {
                 "label": "Bölge",
-                "value": "Marmara"
+                "value": "Türkiye"
             }
         ]
     },
     "venueSummary": {
         "badgeTitle": "İSTANBUL ÖZEL REHBERİ",
         "typeTitle": "Gezilecek Yerler ve Destinasyonlar",
-        "description": "Ayasofya'dan Yerebatan Sarnıcı'na, Sultanahmet'ten Boğaziçi'nin eşsiz kıyılarına uzanan unutulmaz İstanbul rotası.",
+        "description": "Ayasofya'dan Yerebatan Sarnıcı'na, Topkapı Sarayı'ndan Boğaziçi'nin eşsiz kıyılarına uzanan binlerce yıllık imparatorluk mirası.",
         "details": [
             {
                 "label": "Bölge",
-                "value": "Marmara / İki Kıta"
+                "value": "Türkiye"
             },
             {
                 "label": "Öne Çıkan",
-                "value": "Tarihi Yarımada & Boğaz"
+                "value": "Tarih, Kültür & Doğa"
             },
             {
                 "label": "İdeal Süre",
-                "value": "3-5 Gün"
+                "value": "2-4 Gün"
             }
         ]
     },
     "overview": {
         "title": "İstanbul Genel Bakış",
         "paragraphs": [
-            "İstanbul; Asya ve Avrupa'yı birbirine bağlayan boğazı, binlerce yıllık Roma, Bizans ve Osmanlı mirasıyla dünyanın en büyüleyici metropollerinden biridir.",
-            "Tarihi Yarımada'da Dünyanın Harikaları arasında gösterilen eserleri ziyaret edebilir, Adalar'da huzur bulabilir ve Boğaz kıyılarında eşsiz lezzetleri deneyimleyebilirsiniz."
+            "İstanbul; Roma, Bizans ve Osmanlı imparatorluklarına başkentlik yapmış, Asya ile Avrupa'yı bağlayan dünyadaki tek metropoldür.",
+            "Tarihi Yarımada'da insanlık tarihinin en ikonik eserlerini ziyaret edebilir, Boğaz kıyılarında vapur sefası yapabilir ve Kadıköy ile Karaköy'ün modern atmosferini keşfedebilirsiniz."
         ],
         "visitorNotes": [
             {
                 "label": "En İyi Zaman",
-                "value": "İlkbahar & Sonbahar"
+                "value": "Nisan-Mayıs & Eylül-Ekim"
             },
             {
                 "label": "Ulaşım",
-                "value": "İstanbulkart ile Metro, Vapur ve Tramvay"
+                "value": "İstanbulkart (Metro, Tramvay, Vapur)"
             },
             {
                 "label": "MüzeKart",
-                "value": "Tarihi Müzelerde Geçerli"
+                "value": "Tarihi Müzelerin Tamamında Geçerli"
             }
         ]
     },
@@ -72,28 +72,28 @@ const SPOT_DATA = {
             {
                 "icon": "fa-solid fa-landmark",
                 "title": "Tarihi Yerler",
-                "description": "Ayasofya, Sultanahmet ve yüzyıllık anıtlar.",
+                "description": "İstanbul'in köklü geçmişini yansıtan anıtlar, surlar ve müzeler.",
                 "linkText": "Tarihi Keşfet",
                 "url": "#must-see-items"
             },
             {
                 "icon": "fa-solid fa-city",
                 "title": "Modern Yerler",
-                "description": "Taksim, Levent ve şehrin modern yüzü.",
+                "description": "Şehrin en hareketli caddeleri, modern meydanları ve kültür merkezleri.",
                 "linkText": "Moderni İncele",
                 "url": "#must-see-items"
             },
             {
                 "icon": "fa-solid fa-gem",
                 "title": "Sofistike Yerler",
-                "description": "Karaköy ve Nişantaşı'nın nezih sanat noktaları.",
+                "description": "Nezih kafeler, sanat galerileri ve özel konaklama mekanları.",
                 "linkText": "Sofistike Noktalar",
                 "url": "#where-to-stay-title"
             },
             {
                 "icon": "fa-solid fa-tree",
                 "title": "Doğal Güzellikler",
-                "description": "Emirgan Korusu ve Boğaziçi kıyıları.",
+                "description": "Parklar, kanyonlar, sahiller ve nefes kesen manzara seyir noktaları.",
                 "linkText": "Doğayı Gör",
                 "url": "#transport-title"
             }
@@ -104,41 +104,41 @@ const SPOT_DATA = {
         "items": [
             {
                 "category": "Simge",
-                "title": "Ayasofya Camii",
-                "description": "Mimari harikası kubbesiyle dünyanın göz bebeği."
+                "title": "Ayasofya-i Kebir Cami-i Şerifi",
+                "description": "1500 yıllık mimarlık harikası devasa kubbe."
             },
             {
                 "category": "Tarih",
                 "title": "Yerebatan Sarnıcı",
-                "description": "Medusa sütunları ve büyüleyici yeraltı atmosferi."
+                "description": "Medusa başları ve büyüleyici yeraltı sütunları."
             },
             {
                 "category": "Saray",
-                "title": "Topkapı Sarayı",
-                "description": "Osmanlı padişahlarının yönetim merkezi."
+                "title": "Topkapı Sarayı Müzesi",
+                "description": "Osmanlı idare merkezi ve kutsal emanetler."
             },
             {
-                "category": "Kule",
-                "title": "Galata Kulesi",
-                "description": "İstanbul'un panoramik izleme noktası."
+                "category": "Manzara",
+                "title": "Galata Kulesi & Boğaz",
+                "description": "İstanbul'un panoramik 360 derece tarihi izleme noktası."
             }
         ]
     },
     "transportation": {
         "title": "Ulaşım Bilgileri",
-        "tip": "İstanbulkart ile tüm toplu taşımaları rahatça kullanabilirsiniz.",
-        "mapUrl": "https://maps.google.com/?q=Istanbul+Turkey",
-        "mapBgImage": "https://images.unsplash.com/photo-1590073844006-33379778ae09?auto=format&fit=crop&w=1200&q=80&fm=webp",
+        "tip": "Şehir içi toplu taşıma kartlarını kullanarak tüm turistik mekanlara kolayca ulaşabilirsiniz.",
+        "mapUrl": "https://maps.google.com/?q=İstanbul+Turkey",
+        "mapBgImage": "https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=80&fm=webp",
         "methods": [
             {
                 "icon": "fa-solid fa-plane",
-                "title": "Havalimanı",
-                "detail": "Havaist otobüsleri ile merkeze ulaşım."
+                "title": "Havalimanı Ulaşımı",
+                "detail": "Havaş ve belediye otobüs seferleri ile şehir merkezine rahat erişim."
             },
             {
-                "icon": "fa-solid fa-ship",
-                "title": "Vapur Seferleri",
-                "detail": "Boğazda nostaljik deniz ulaşımı."
+                "icon": "fa-solid fa-bus",
+                "title": "Şehirlerarası Otogar",
+                "detail": "Türkiye'nin tüm illerinden düzenli otobüs seferleri."
             }
         ]
     },
@@ -148,13 +148,13 @@ const SPOT_DATA = {
             {
                 "badge": "Tarihi Butik",
                 "name": "Pera Palace Hotel",
-                "distance": "Beyoğlu",
+                "distance": "Beyoğlu / Tepebaşı",
                 "link": "https://www.google.com/travel/hotels"
             },
             {
-                "badge": "Lüks",
+                "badge": "Lüks Boğaz",
                 "name": "Four Seasons Bosphorus",
-                "distance": "Beşiktaş",
+                "distance": "Beşiktaş Sahil",
                 "link": "https://www.google.com/travel/hotels"
             }
         ]
@@ -163,15 +163,15 @@ const SPOT_DATA = {
         "title": "Nerede Ne Yenir?",
         "restaurants": [
             {
-                "badge": "Tarihi",
+                "badge": "Tarihi Lezzet",
                 "name": "Tarihi Sultanahmet Köftecisi",
-                "distance": "Sultanahmet",
+                "detail": "Sultanahmet Meydanı",
                 "rating": "4.8"
             },
             {
-                "badge": "Osmanlı",
+                "badge": "Osmanlı Mutfağı",
                 "name": "Pandeli Restaurant",
-                "distance": "Mısır Çarşısı",
+                "detail": "Mısır Çarşısı Girişi",
                 "rating": "4.7"
             }
         ]
