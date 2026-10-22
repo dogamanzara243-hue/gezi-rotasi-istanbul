@@ -35,11 +35,42 @@ const SPOT_DATA = {
             { label: "MüzeKart", value: "Tarihi Müzelerde Geçerli" }
         ]
     },
+    
     whyVisit: {
-        title: "Neden İstanbul'u Gezmelisiniz?",
-        subtitle: "İmparatorlukların başkenti ve iki kıtanın kesişim noktası",
+        title: "Istanbul Keşif Rotaları",
+        subtitle: "Şehrin en gözde mekanlarını tematik kategorilere göre keşfedin",
         cards: [
-            { icon: "fa-solid fa-landmark-dome", title: "Tarihi Yarımada", description: "Ayasofya, Sultanahmet ve Topkapı Sarayı gibi dünya tarihinin kalbi." },
+            {
+                icon: "fa-solid fa-landmark",
+                title: "Tarihi Yerler",
+                description: "Yüzyıllık anıtlar, kaleler, müzeler ve köklü medeniyet izleri.",
+                linkText: "Tarihi Keşfet",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-city",
+                title: "Modern Yerler",
+                description: "Şehrin en popüler meydanları, alışveriş merkezleri ve plazas.",
+                linkText: "Moderni İncele",
+                url: "#must-see-items"
+            },
+            {
+                icon: "fa-solid fa-gem",
+                title: "Sofistike Yerler",
+                description: "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                linkText: "Sofistike Noktalar",
+                url: "#where-to-stay-title"
+            },
+            {
+                icon: "fa-solid fa-tree",
+                title: "Doğal Güzellikler",
+                description: "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                linkText: "Doğayı Gör",
+                url: "#transport-title"
+            }
+        ]
+    },
+    
             { icon: "fa-solid fa-ship", title: "Boğaziçi Turları", description: "İki kıta arasında vapur seferleriyle unutulmaz boğaz manzaraları." },
             { icon: "fa-solid fa-store", title: "Kapalıçarşı", description: "Yüzyıllık baharatlar, el sanatları ve otantik alışveriş kültürü." }
         ]
