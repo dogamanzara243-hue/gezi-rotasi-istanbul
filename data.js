@@ -74,7 +74,7 @@ const SPOT_DATA = {
                 "title": "Tarihi Yerler",
                 "description": "İstanbul'in köklü geçmişini yansıtan anıtlar, surlar ve müzeler.",
                 "linkText": "Tarihi Keşfet",
-                "url": "#must-see-items"
+                "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-tarihi-yerler/"
             },
             {
                 "icon": "fa-solid fa-city",
