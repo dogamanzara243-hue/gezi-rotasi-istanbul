@@ -72,30 +72,30 @@ const SPOT_DATA = {
             {
                 "icon": "fa-solid fa-landmark",
                 "title": "Tarihi Yerler",
-                "description": "Ayasofya, Sultanahmet, Yerebatan Sarnıcı ve yüzyıllık imparatorluk anıtları.",
-                "linkText": "Tarihi Rehbere Git",
+                "description": "Köklü geçmişi ve medeniyet izlerini taşıyan tarihi yapılar ve anıtlar.",
+                "linkText": "Tarihi Yerler İncele",
                 "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-tarihi-yerler/"
             },
             {
                 "icon": "fa-solid fa-city",
                 "title": "Modern Yerler",
-                "description": "Taksim, Levent, Nişantaşı ve şehrin modern dinamik yüzü.",
-                "linkText": "Moderni İncele",
-                "url": "#must-see-items"
+                "description": "Şehrin hareketli meydanları, alışveriş merkezleri ve modern yapıları.",
+                "linkText": "Modern Yerler İncele",
+                "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-modern-yerler/"
             },
             {
                 "icon": "fa-solid fa-gem",
                 "title": "Sofistike Yerler",
-                "description": "Karaköy ve Moda'nın nezih kafeleri, sanat galerileri ve özel mekanları.",
-                "linkText": "Sofistike Noktalar",
-                "url": "#where-to-stay-title"
+                "description": "Seçkin kafeler, sanat galerileri ve nezih buluşma noktaları.",
+                "linkText": "Sofistike Yerler İncele",
+                "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-sofistike-yerler/"
             },
             {
                 "icon": "fa-solid fa-tree",
                 "title": "Doğal Güzellikler",
-                "description": "Emirgan Korusu, Belgrad Ormanı ve Boğaziçi kıyı hatları.",
-                "linkText": "Doğayı Gör",
-                "url": "#transport-title"
+                "description": "Parklar, sahil şeritleri, kanyonlar ve nefis manzara noktaları.",
+                "linkText": "Doğal Güzellikler İncele",
+                "url": "https://dogamanzara243-hue.github.io/gezi-rotasi-istanbul-dogal-guzellikler/"
             }
         ]
     },
